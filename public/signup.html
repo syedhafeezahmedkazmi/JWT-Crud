@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Signup Page</h1>
+
+    <form id="signupForm">
+        <label for="firstName">First Name: </label><input type="text" name="firstName" id="firstName" required>
+        <label for="lastName">Last Name: </label><input type="text" name="lastName" id="lastName" required>
+        <br>    
+        <label for="emailInput">Email: </label><input type="email" name="emailInput" id="emailInput" required>
+        <br>
+        <label for="passwordInput">Password: </label><input type="password" name="passwordInput" id="passwordInput" required>
+        <br>
+        <button type="submit">Sign Up</button>
+        <br>
+        <p>Already account? <a href="./login.html">login</a></p>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="signup.mjs"></script>
+</body>
+</html>
